@@ -1,0 +1,15 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MoeAlert_Example' do
+#  pod 'MoeCommon', :git=>'https://github.com/linyanzuo/MoeCommon.git'
+#  pod 'MoeUI', :git=>'https://github.com/linyanzuo/MoeUI.git'
+  pod 'MoeAlert', :path => '../'
+
+  target 'MoeAlert_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

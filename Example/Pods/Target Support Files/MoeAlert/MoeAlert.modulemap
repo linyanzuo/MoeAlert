@@ -1,0 +1,6 @@
+framework module MoeAlert {
+  umbrella header "MoeAlert-umbrella.h"
+
+  export *
+  module * { export * }
+}

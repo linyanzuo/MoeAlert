@@ -1,0 +1,22 @@
+{
+  "name": "MoeAlert",
+  "version": "0.1.0",
+  "summary": "A short description of MoeAlert.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/linyanzuo/MoeAlert",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "linyanzuo1222@gmail.com": "zed@moemone.com"
+  },
+  "source": {
+    "git": "https://github.com/linyanzuo/MoeAlert.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MoeAlert/Classes/**/*"
+}
