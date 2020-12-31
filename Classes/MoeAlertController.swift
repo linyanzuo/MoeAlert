@@ -11,7 +11,7 @@
 import UIKit
 
 
-/// 弹窗控制器，请使用`present`方式展示，不能使用`push`方式
+/// 弹窗控制器，请使用`alert.present`展示，不能使用`push`或`present`展示
 open class MoeAlertController: UIViewController, MoeAlertAnimatorProtocol {
     /// 转场动画时长
     open var animationDuratoin: TimeInterval = 0.25

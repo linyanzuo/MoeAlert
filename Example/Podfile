@@ -3,8 +3,9 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'MoeAlert_Example' do
-#  pod 'MoeCommon', :git=>'https://github.com/linyanzuo/MoeCommon.git'
-#  pod 'MoeUI', :git=>'https://github.com/linyanzuo/MoeUI.git'
+  pod 'MoeCommon', :git=>'https://github.com/linyanzuo/MoeCommon.git'
+  pod 'MoeUI', :git=>'https://github.com/linyanzuo/MoeUI.git'
+  pod 'SnapKit', '~> 4.2.0'
   pod 'MoeAlert', :path => '../'
 
   target 'MoeAlert_Tests' do

@@ -17,12 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
     ) -> Bool {
-//        window = UIWindow(frame: UIScreen.main.bounds)
-//        
-//        let vc = AlertUsageVC(style: .grouped)
-//        let nav = UINavigationController(rootViewController: vc)
-//        window?.rootViewController = nav
-//        window?.makeKeyAndVisible()
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        let vc = AlertUsageVC(style: .grouped)
+        let nav = UINavigationController(rootViewController: vc)
+        window?.rootViewController = nav
+        window?.makeKeyAndVisible()
 
         return true
     }

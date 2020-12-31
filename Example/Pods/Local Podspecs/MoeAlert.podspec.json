@@ -1,7 +1,7 @@
 {
   "name": "MoeAlert",
   "version": "0.1.0",
-  "summary": "A short description of MoeAlert.",
+  "summary": "Moe Alert Controller",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/linyanzuo/MoeAlert",
   "license": {
@@ -19,6 +19,6 @@
     "ios": "9.0"
   },
   "swift_versions": "5.0",
-  "source_files": "MoeAlert/Classes/**/*",
+  "source_files": "Classes/*",
   "swift_version": "5.0"
 }

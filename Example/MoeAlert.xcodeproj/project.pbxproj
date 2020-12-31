@@ -12,6 +12,14 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6B986CAAD1CEE76CFCC49422 /* Pods_MoeAlert_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB91126C6AE839B43DB6D07 /* Pods_MoeAlert_Example.framework */; };
+		95F5E360259DB82500AAB9FD /* AlertUsageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F5E35F259DB82500AAB9FD /* AlertUsageVC.swift */; };
+		95F5E39E259DB93300AAB9FD /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F5E39B259DB93300AAB9FD /* SettingCell.swift */; };
+		95F5E39F259DB93300AAB9FD /* UnitedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F5E39C259DB93300AAB9FD /* UnitedTableViewController.swift */; };
+		95F5E3A0259DB93300AAB9FD /* DemoTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F5E39D259DB93300AAB9FD /* DemoTableVC.swift */; };
+		95F5E3A4259DB9A300AAB9FD /* TitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F5E3A3259DB9A300AAB9FD /* TitleCell.swift */; };
+		95F5E3AA259DB9BF00AAB9FD /* CustomDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F5E3A9259DB9BF00AAB9FD /* CustomDialog.swift */; };
+		95F5E3AB259DB9BF00AAB9FD /* StyleAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F5E3A8259DB9BF00AAB9FD /* StyleAlertController.swift */; };
+		95F5E3AC259DB9BF00AAB9FD /* BottomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F5E3A7259DB9BE00AAB9FD /* BottomAlertView.swift */; };
 		B8E9D2CEA054547790B91358 /* Pods_MoeAlert_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B09753800150E59971639DB /* Pods_MoeAlert_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +48,14 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8BF51E025D7E402090EE3CE0 /* Pods-MoeAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoeAlert_Tests.release.xcconfig"; path = "Target Support Files/Pods-MoeAlert_Tests/Pods-MoeAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		95F5E35F259DB82500AAB9FD /* AlertUsageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertUsageVC.swift; sourceTree = "<group>"; };
+		95F5E39B259DB93300AAB9FD /* SettingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
+		95F5E39C259DB93300AAB9FD /* UnitedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitedTableViewController.swift; sourceTree = "<group>"; };
+		95F5E39D259DB93300AAB9FD /* DemoTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoTableVC.swift; sourceTree = "<group>"; };
+		95F5E3A3259DB9A300AAB9FD /* TitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCell.swift; sourceTree = "<group>"; };
+		95F5E3A7259DB9BE00AAB9FD /* BottomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomAlertView.swift; sourceTree = "<group>"; };
+		95F5E3A8259DB9BF00AAB9FD /* StyleAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleAlertController.swift; sourceTree = "<group>"; };
+		95F5E3A9259DB9BF00AAB9FD /* CustomDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDialog.swift; sourceTree = "<group>"; };
 		CBF1E97146F55C65B6FF9752 /* Pods-MoeAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoeAlert_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MoeAlert_Tests/Pods-MoeAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F01E6819B94E0E9C56F2C84D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FF47C0819992DF5D84AA3BAF /* Pods-MoeAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoeAlert_Example.debug.xcconfig"; path = "Target Support Files/Pods-MoeAlert_Example/Pods-MoeAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -89,6 +105,8 @@
 		607FACD21AFB9204008FA782 /* Example for MoeAlert */ = {
 			isa = PBXGroup;
 			children = (
+				95F5E3AF259DB9C400AAB9FD /* Alert */,
+				95F5E38B259DB87100AAB9FD /* TableView */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -131,6 +149,28 @@
 				F01E6819B94E0E9C56F2C84D /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		95F5E38B259DB87100AAB9FD /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				95F5E3A3259DB9A300AAB9FD /* TitleCell.swift */,
+				95F5E39D259DB93300AAB9FD /* DemoTableVC.swift */,
+				95F5E39B259DB93300AAB9FD /* SettingCell.swift */,
+				95F5E39C259DB93300AAB9FD /* UnitedTableViewController.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		95F5E3AF259DB9C400AAB9FD /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				95F5E3A7259DB9BE00AAB9FD /* BottomAlertView.swift */,
+				95F5E3A9259DB9BF00AAB9FD /* CustomDialog.swift */,
+				95F5E3A8259DB9BF00AAB9FD /* StyleAlertController.swift */,
+				95F5E35F259DB82500AAB9FD /* AlertUsageVC.swift */,
+			);
+			path = Alert;
 			sourceTree = "<group>";
 		};
 		BBEF82B0E8BD208E08838347 /* Frameworks */ = {
@@ -206,11 +246,15 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 8LK2ZWLG9Q;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Manual;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 8LK2ZWLG9Q;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Manual;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -285,10 +329,16 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MoeAlert_Example/Pods-MoeAlert_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MoeAlert/MoeAlert.framework",
+				"${BUILT_PRODUCTS_DIR}/MoeCommon/MoeCommon.framework",
+				"${BUILT_PRODUCTS_DIR}/MoeUI/MoeUI.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MoeAlert.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MoeCommon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MoeUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -324,7 +374,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95F5E3A4259DB9A300AAB9FD /* TitleCell.swift in Sources */,
+				95F5E3A0259DB93300AAB9FD /* DemoTableVC.swift in Sources */,
+				95F5E3AB259DB9BF00AAB9FD /* StyleAlertController.swift in Sources */,
+				95F5E3AA259DB9BF00AAB9FD /* CustomDialog.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				95F5E360259DB82500AAB9FD /* AlertUsageVC.swift in Sources */,
+				95F5E39F259DB93300AAB9FD /* UnitedTableViewController.swift in Sources */,
+				95F5E39E259DB93300AAB9FD /* SettingCell.swift in Sources */,
+				95F5E3AC259DB9BF00AAB9FD /* BottomAlertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,11 +520,15 @@
 			baseConfigurationReference = FF47C0819992DF5D84AA3BAF /* Pods-MoeAlert_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development: Yanzuo Lin (C3T57XZ9JZ)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 8LK2ZWLG9Q;
 				INFOPLIST_FILE = MoeAlert/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.moemone.alert;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = DEV_GEN_ALL;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -477,11 +539,15 @@
 			baseConfigurationReference = 3128FDB91FF0AF27C6A453C3 /* Pods-MoeAlert_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Distribution: Shenzhen Canderaction Technology Co., Ltd. (8LK2ZWLG9Q)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 8LK2ZWLG9Q;
 				INFOPLIST_FILE = MoeAlert/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.moemone.alert;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = DEV_GEN_ALL;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -491,6 +557,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CBF1E97146F55C65B6FF9752 /* Pods-MoeAlert_Tests.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 8LK2ZWLG9Q;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -503,6 +573,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoeAlert_Example.app/MoeAlert_Example";
@@ -513,6 +585,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8BF51E025D7E402090EE3CE0 /* Pods-MoeAlert_Tests.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Distribution: Shenzhen Aiguqin Culture Co., Ltd. (368DW97H5X)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = JPZD4Y72K9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -521,6 +596,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoeAlert_Example.app/MoeAlert_Example";
