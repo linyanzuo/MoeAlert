@@ -11,9 +11,9 @@
 		39B399FEACE26CDE5B48442A2EE082CD /* Pods-MoeAlert_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D083DCAFF52F2FDA175FC45BDF319BB /* Pods-MoeAlert_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53E5D3F87ECFEB2FEAB6610E6B2F6F0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		62C9732D4334881CA078E05D894EC024 /* Pods-MoeAlert_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42735587C4980B672624D2EDE0CC86DD /* Pods-MoeAlert_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F99CAA405548A4CF0440E0D9211BB94 /* MoeAlertAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7A017BA07C95F6A5AACC0A4578CB86 /* MoeAlertAnimator.swift */; };
 		779B41F05248C583B68E2B714E6A7A0D /* MoeAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BA688556F26B9257C601BD732CA30B /* MoeAlert-dummy.m */; };
-		86B91E4A5ED9B6C65C09A804ABA44D56 /* MoeAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8CF617251635DDB46FCD37A346F0B0 /* MoeAlertController.swift */; };
+		95F5E200259D7B6A00AAB9FD /* MoeAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F5E1FE259D7B6A00AAB9FD /* MoeAlertController.swift */; };
+		95F5E201259D7B6A00AAB9FD /* MoeAlertAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F5E1FF259D7B6A00AAB9FD /* MoeAlertAnimator.swift */; };
 		AA9852A0262B485DF48CFC37BE8C0ED7 /* MoeAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D93CC4F73F1095B4B838F5DE2219B26 /* MoeAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B586F80616A29922F912C9B8F3DB1A31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		F2587A99A8C7A42449E2EE73F97A7F1D /* Pods-MoeAlert_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9E5DD0BCBAE71DCFBB5C261828A7F0 /* Pods-MoeAlert_Tests-dummy.m */; };
@@ -58,7 +58,8 @@
 		7D93CC4F73F1095B4B838F5DE2219B26 /* MoeAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MoeAlert-umbrella.h"; sourceTree = "<group>"; };
 		83959C15C21B95B477948B1483AD6C60 /* Pods-MoeAlert_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoeAlert_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		90C73FA595FF570553C5371366043339 /* Pods-MoeAlert_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoeAlert_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9A7A017BA07C95F6A5AACC0A4578CB86 /* MoeAlertAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoeAlertAnimator.swift; path = MoeAlert/Classes/MoeAlertAnimator.swift; sourceTree = "<group>"; };
+		95F5E1FE259D7B6A00AAB9FD /* MoeAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoeAlertController.swift; path = Classes/MoeAlertController.swift; sourceTree = "<group>"; };
+		95F5E1FF259D7B6A00AAB9FD /* MoeAlertAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoeAlertAnimator.swift; path = Classes/MoeAlertAnimator.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AA12B050F7274A013F7460D48DCB34FC /* Pods-MoeAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoeAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AA9E5DD0BCBAE71DCFBB5C261828A7F0 /* Pods-MoeAlert_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoeAlert_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -68,7 +69,6 @@
 		CA80054589CC280EE4B417EFE9B624B8 /* Pods-MoeAlert_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MoeAlert_Example.modulemap"; sourceTree = "<group>"; };
 		D91F7D695F6012DF1D009FD6B12C37A0 /* Pods-MoeAlert_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoeAlert_Example-frameworks.sh"; sourceTree = "<group>"; };
 		DC073813290CB7E3EFF0AE0604132003 /* Pods-MoeAlert_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoeAlert_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		DD8CF617251635DDB46FCD37A346F0B0 /* MoeAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoeAlertController.swift; path = MoeAlert/Classes/MoeAlertController.swift; sourceTree = "<group>"; };
 		E8596740CA5BD96879786B41F41E5FBB /* MoeAlert-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MoeAlert-Info.plist"; sourceTree = "<group>"; };
 		F28927E26846AB020015B08A0F2F9DB3 /* Pods_MoeAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoeAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB01F9B70953251F5FD40837234A71FC /* MoeAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MoeAlert-prefix.pch"; sourceTree = "<group>"; };
@@ -132,8 +132,8 @@
 		BE4A5CABB24FCE7AA4DF1911A4602BDD /* MoeAlert */ = {
 			isa = PBXGroup;
 			children = (
-				9A7A017BA07C95F6A5AACC0A4578CB86 /* MoeAlertAnimator.swift */,
-				DD8CF617251635DDB46FCD37A346F0B0 /* MoeAlertController.swift */,
+				95F5E1FF259D7B6A00AAB9FD /* MoeAlertAnimator.swift */,
+				95F5E1FE259D7B6A00AAB9FD /* MoeAlertController.swift */,
 				562F2CA71928B2D4699A3F98FFC22F43 /* Pod */,
 				E1CD89412EF8F1A2463876B5AC92AFE1 /* Support Files */,
 			);
@@ -320,6 +320,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					B6657AF4F22727D4E15BC821CFF5C182 = {
+						LastSwiftMigration = 1230;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -386,9 +391,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95F5E200259D7B6A00AAB9FD /* MoeAlertController.swift in Sources */,
 				779B41F05248C583B68E2B714E6A7A0D /* MoeAlert-dummy.m in Sources */,
-				6F99CAA405548A4CF0440E0D9211BB94 /* MoeAlertAnimator.swift in Sources */,
-				86B91E4A5ED9B6C65C09A804ABA44D56 /* MoeAlertController.swift in Sources */,
+				95F5E201259D7B6A00AAB9FD /* MoeAlertAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +485,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6F68935BDE907BD6060832BFE442978A /* MoeAlert.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -499,6 +505,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -510,6 +517,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6D9D2FD601475CD993B4A9F59E7EF3FC /* MoeAlert.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
