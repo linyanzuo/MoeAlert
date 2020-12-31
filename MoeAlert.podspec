@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
   s.swift_versions = '5.0'
 
-  s.source_files = 'MoeAlert/Classes/**/*'
+  s.source_files = 'MoeAlert/Classes/*'
   
   # s.resource_bundles = {
   #   'MoeAlert' => ['MoeAlert/Assets/*.png']

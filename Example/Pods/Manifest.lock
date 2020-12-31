@@ -1,57 +1,16 @@
 PODS:
   - MoeAlert (0.1.0)
-  - MoeCommon (0.1.2):
-    - MoeCommon/Base (= 0.1.2)
-    - MoeCommon/Extension (= 0.1.2)
-    - MoeCommon/Runtime (= 0.1.2)
-  - MoeCommon/Base (0.1.2)
-  - MoeCommon/Extension (0.1.2)
-  - MoeCommon/Runtime (0.1.2):
-    - MoeCommon/Base
-    - MoeCommon/Extension
-  - MoeUI (1.3.0):
-    - MoeCommon
-    - MoeUI/Alert (= 1.3.0)
-    - MoeUI/Designator (= 1.3.0)
-    - MoeUI/PanDrawer (= 1.3.0)
-    - MoeUI/Unity (= 1.3.0)
-  - MoeUI/Alert (1.3.0):
-    - MoeCommon
-    - MoeUI/Designator
-    - MoeUI/Unity
-  - MoeUI/Designator (1.3.0):
-    - MoeCommon
-  - MoeUI/PanDrawer (1.3.0):
-    - MoeCommon
-  - MoeUI/Unity (1.3.0):
-    - MoeCommon
 
 DEPENDENCIES:
   - MoeAlert (from `../`)
-  - MoeCommon (from `https://github.com/linyanzuo/MoeCommon.git`)
-  - MoeUI (from `https://github.com/linyanzuo/MoeUI.git`)
 
 EXTERNAL SOURCES:
   MoeAlert:
     :path: "../"
-  MoeCommon:
-    :git: https://github.com/linyanzuo/MoeCommon.git
-  MoeUI:
-    :git: https://github.com/linyanzuo/MoeUI.git
-
-CHECKOUT OPTIONS:
-  MoeCommon:
-    :commit: 0046bf01714f5e59b6d123f0dce925405fa6bd27
-    :git: https://github.com/linyanzuo/MoeCommon.git
-  MoeUI:
-    :commit: aec6054ba2dcc7b498016110f2d568a0f43393f1
-    :git: https://github.com/linyanzuo/MoeUI.git
 
 SPEC CHECKSUMS:
-  MoeAlert: 42d8ad028b868f3c433762f62d0597b46d9f9e51
-  MoeCommon: 58429fce47df711e46147d7d34c07648459012ef
-  MoeUI: f2bcee7a24b63d6c48f4fbb78982d845f2929b15
+  MoeAlert: 96b90dc37d7a408c9ddffe7bd959c2b2a50da1ab
 
-PODFILE CHECKSUM: a612cda9f4b5cd093f15209251b72f4f0c60e1be
+PODFILE CHECKSUM: b43573454ea7fdda40453f098a095044c52decf5
 
 COCOAPODS: 1.10.0
