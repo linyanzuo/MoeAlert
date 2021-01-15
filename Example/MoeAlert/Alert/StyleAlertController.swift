@@ -7,6 +7,7 @@
 
 import MoeUI
 import MoeCommon
+import MoeAlert
 import UIKit
 
 

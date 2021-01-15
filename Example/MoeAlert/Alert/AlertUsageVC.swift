@@ -7,8 +7,8 @@
 //
 
 import UIKit
-import MoeUI
 import MoeCommon
+import MoeUI
 import MoeAlert
 
 
@@ -24,7 +24,8 @@ class AlertUsageVC: UITableViewController {
          ("Window ShowCustom")],
         [("Controller ShowSuccess"),
          ("Controller ShowError"),
-         ("Controller ShowProgress")]
+         ("Controller ShowProgress")],
+        [("Alert DatePikcer")]
     ]
 
     // MARK: Object Life Cycle
@@ -120,6 +121,18 @@ class AlertUsageVC: UITableViewController {
                 moe.transparencyPresent(viewController: vc)
             default: MLog("Nothing")
             }
+        } else if indexPath.section == 3 {
+            let vc = MoeDateAlertController()
+            vc.pickerType = .yearToDay
+            vc.titleLabel.text = "日期选择"
+            vc.submitButton.setTitle("提交", for: .normal)
+            vc.cancelButton.setTitle("返回", for: .normal)
+            vc.minDate = Date()
+            vc.maxDate = Date(timeIntervalSinceNow: 10000000)
+            vc.didSelectDateHandler = { date in
+                print(date)
+            }
+            self.alert.present(viewController: vc)
         }
     }
 

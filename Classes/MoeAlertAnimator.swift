@@ -237,11 +237,11 @@ extension MoeAlertAnimator: CAAnimationDelegate {
     // MARK: CAAnimationDelegate
     
     public func animationDidStart(_ anim: CAAnimation) {
-        debugPrint("动画开始")
+//        debugPrint("动画开始")
     }
     
     public func animationDidStop(_ anim: CAAnimation, finished flag: Bool) {
-        debugPrint("动画结束")
+//        debugPrint("动画结束")
         // 1. 执行动画处理的收尾处理（避免闪屏）
 //        let transitionType = anim.value(forKey: "TRANSITION_TYPE") as? TransitionType
         // 2. 移除动画效果

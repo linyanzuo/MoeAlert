@@ -4,15 +4,13 @@
 //
 //  Created by Zed on 2020/12/31.
 //
-// 命名空间包装协议
 
 import Foundation
 
 
 /// 类型包装协议
-/// 针对`对象`处理，WrapperType使用冒号`:`限制类型
-public protocol TypeWrapperProtocol {
-    /// 包装类型，取遵守该协议对象的数据类型
+public protocol AlertTypeWrapperProtocol {
+    /// 包装值的类型
     associatedtype WrappedType
     
     /// 被包装值，引用包装类型的实例
@@ -23,16 +21,18 @@ public protocol TypeWrapperProtocol {
 
 
 /// 命名空间包装器
-/// 针对`结构体`处理, WrapperType使用等号`==`限制类型
-public struct NamespaceWrapper<T>: TypeWrapperProtocol {
+/// `结构体`类型：WrapperType使用等号`==`限制类型
+/// `对象`类型：WrapperType使用冒号`:`限制类型
+public struct AlertNamespaceWrapper<WT>: AlertTypeWrapperProtocol {
+    public typealias WrappedType = WT
     /// 被包装值，其类型由泛型指定
-    public let wrappedValue: T
+    public let wrappedValue: WT
     /// 构造方法，为被包装值进行赋值
-    public init(value: T) { self.wrappedValue = value }
+    public init(value: WT) { self.wrappedValue = value }
 }
 
 
-/// 命名空间包装协议（对象）
+/// 命名空间包装协议
 public protocol AlertNamespaceWrappable {
     associatedtype WrapperType
     var alert: WrapperType { get }
@@ -40,12 +40,12 @@ public protocol AlertNamespaceWrappable {
 }
 
 
-/// 命名空间包装扩展（结构体）
+/// 命名空间包装协议扩展
 public extension AlertNamespaceWrappable {
-    var alert: NamespaceWrapper<Self> {
-        return NamespaceWrapper(value: self)
+    var alert: AlertNamespaceWrapper<Self> {
+        return AlertNamespaceWrapper(value: self)
     }
-    static var alert: NamespaceWrapper<Self>.Type {
-        return NamespaceWrapper.self
+    static var alert: AlertNamespaceWrapper<Self>.Type {
+        return AlertNamespaceWrapper.self
     }
 }
