@@ -117,7 +117,9 @@ class AlertUsageVC: UITableViewController {
                 let vc = StyleAlertController(style: .error, text: "很不幸，并没有生效")
                 alert.present(viewController: vc)
             case 2:
-                let vc = StyleAlertController(style: .progress, text: "正在处理")
+//                let vc = FeedbackController(style: .progress, text: "正在处理")
+//                moe.transparencyPresent(viewController: vc)
+                let vc = MismatchReasonVC()
                 moe.transparencyPresent(viewController: vc)
             default: MLog("Nothing")
             }

@@ -1,0 +1,117 @@
+{
+    "options":[
+        {"sectionTitle":"学历",
+        "values":[
+            {
+                "id": "xlpd",
+                "name": "学历偏低",
+                "isSelected": false,
+            },{
+                "id": "xtzxl",
+                "name": "需统招学历",
+                "isSelected": false,
+            },{
+                "id": "xy211ysxl",
+                "name": "需211以上学历",
+                "isSelected": false,
+            },{
+                "id": "x985学历",
+                "name": "需985学历",
+                "isSelected": false,
+            },{
+                "id": "xhwtopxl",
+                "name": "需海外top学历",
+                "isSelected": false,
+            },{
+                "id": "zybfh",
+                "name": "专业不符合",
+                "isSelected": false,
+            },]
+        },
+        {"sectionTitle":"年龄性别",
+        "values":[
+            {
+                "id": "nlgd",
+                "name": "年龄过低",
+                "isSelected": false,
+            },{
+                "id": "nlgg",
+                "name": "年龄过高",
+                "isSelected": false,
+            },{
+                "id": "manyx",
+                "name": "男士优先",
+                "isSelected": false,
+            },{
+                "id": "womenyx",
+                "name": "女士优先",
+                "isSelected": false,
+            }]
+        },
+        {"sectionTitle":"工作经验",
+        "values":[
+            {
+                "id": "1n",
+                "name": "一年",
+                "isSelected": false,
+            },{
+                "id": "3n",
+                "name": "三年",
+                "isSelected": false,
+            },{
+                "id": "5n",
+                "name": "5年",
+                "isSelected": false,
+            },{
+                "id": "bx",
+                "name": "不限",
+                "isSelected": false,
+            }]
+        },
+        {"sectionTitle":"薪资",
+        "values":[
+            {
+                "id": "1000",
+                "name": "1000",
+                "isSelected": false,
+            },{
+                "id": "2000",
+                "name": "2000",
+                "isSelected": false,
+            },{
+                "id": "100000",
+                "name": "100000",
+                "isSelected": false,
+            }]
+        },
+        {"sectionTitle":"职位类型",
+        "values":[
+            {
+                "id": "qdkf",
+                "name": "前端开发",
+                "isSelected": false,
+            },{
+                "id": "hdkf",
+                "name": "后端开发",
+                "isSelected": false,
+            },{
+                "id": "cpjl",
+                "name": "产品经理",
+                "isSelected": false,
+            },{
+                "id": "cs",
+                "name": "测试",
+                "isSelected": false,
+            }]
+        },
+        {"sectionTitle":"其他",
+        "values":[
+            {
+                "id": "szrs",
+                "name": "深圳人士",
+                "isSelected": false,
+            }]
+        }
+    ]
+
+}

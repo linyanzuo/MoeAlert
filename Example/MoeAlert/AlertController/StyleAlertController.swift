@@ -24,7 +24,7 @@ public class StyleAlertController: MoeAlertController {
         self.style = style
         self.text = text
         super.init(nibName: nil, bundle: nil)
-        self.animationDuratoin = 2.0
+        self.animationDuratoin = 0.25
     }
 
     // MARK: View Life Cycle
