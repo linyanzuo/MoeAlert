@@ -8,9 +8,10 @@
 
 import Foundation
 import UIKit
+import MoeAlert
 
 
-/// 日期选择弹窗
+/// 日期弹窗控制器
 open class MoeDateAlertController: MoeAlertController {
     /// 最小日期
     open var minDate: Date = Date(timeIntervalSince1970: 0)
@@ -127,7 +128,7 @@ open class MoeDateAlertController: MoeAlertController {
     }()
 }
 
-
+// MARK: - 事件响应
 @objc extension MoeDateAlertController {
     func maskBtnAction(_ sender: UIButton) {
         self.dismiss(animated: true, completion: nil)

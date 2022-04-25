@@ -12,7 +12,7 @@ import MoeUI
 import MoeAlert
 
 
-class AlertUsageVC: UITableViewController {
+class AlertUsageVC: TableViewController {
     private let sectionSource: [[String]] = [
         [("View ShowSuccess"),
          ("View ShowError"),
@@ -65,7 +65,7 @@ class AlertUsageVC: UITableViewController {
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if indexPath.section == 0 {
-            MLog("UIView形式的弹窗展示")
+            debugPrint("UIView形式的弹窗展示")
             switch indexPath.row {
             case 0:
                 let dialog = AlertDialog(style: .success, text: "祝贺您，操作已成功")
@@ -76,10 +76,10 @@ class AlertUsageVC: UITableViewController {
             case 2:
                 let alertView = BottomAlertView(frame: .zero)
                 alertView.show(in: view.window!)
-            default: MLog("Nothing")
+            default: debugPrint("Nothing")
             }
         } else if indexPath.section == 1 {
-            MLog("UIWindow形式的弹窗展示")
+            debugPrint("UIWindow形式的弹窗展示")
             switch indexPath.row {
             case 0:
                 let dialog = AlertDialog(style: .success, text: "Congratulation, it work!")
@@ -105,10 +105,10 @@ class AlertUsageVC: UITableViewController {
                     self.doSomework()
                     DispatchQueue.main.async { HUD.hide(with: id) }
                 }
-            default: MLog("Nothing")
+            default: debugPrint("Nothing")
             }
         } else if indexPath.section == 2 {
-            MLog("UIViewController形式的弹窗展示")
+            debugPrint("UIViewController形式的弹窗展示")
             switch indexPath.row {
             case 0:
                 let vc = StyleAlertController(style: .success, text: "祝贺您，操作已成功")
@@ -121,7 +121,7 @@ class AlertUsageVC: UITableViewController {
 //                moe.transparencyPresent(viewController: vc)
                 let vc = MismatchReasonVC()
                 moe.transparencyPresent(viewController: vc)
-            default: MLog("Nothing")
+            default: debugPrint("Nothing")
             }
         } else if indexPath.section == 3 {
             let vc = MoeDateAlertController()

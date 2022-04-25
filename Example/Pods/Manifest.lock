@@ -1,64 +1,51 @@
 PODS:
-  - MoeAlert (0.1.0)
-  - MoeCommon (0.1.2):
-    - MoeCommon/Base (= 0.1.2)
-    - MoeCommon/Extension (= 0.1.2)
-    - MoeCommon/Runtime (= 0.1.2)
-  - MoeCommon/Base (0.1.2)
-  - MoeCommon/Extension (0.1.2)
-  - MoeCommon/Runtime (0.1.2):
+  - MoeAlert (1.0.0)
+  - MoeCommon (0.0.1):
+    - MoeCommon/Base (= 0.0.1)
+    - MoeCommon/Extension (= 0.0.1)
+    - MoeCommon/Runtime (= 0.0.1)
+  - MoeCommon/Base (0.0.1)
+  - MoeCommon/Extension (0.0.1)
+  - MoeCommon/Runtime (0.0.1):
     - MoeCommon/Base
     - MoeCommon/Extension
-  - MoeUI (1.3.0):
-    - MoeCommon
-    - MoeUI/Alert (= 1.3.0)
-    - MoeUI/Designator (= 1.3.0)
-    - MoeUI/PanDrawer (= 1.3.0)
-    - MoeUI/Unity (= 1.3.0)
-  - MoeUI/Alert (1.3.0):
-    - MoeCommon
-    - MoeUI/Designator
-    - MoeUI/Unity
-  - MoeUI/Designator (1.3.0):
-    - MoeCommon
-  - MoeUI/PanDrawer (1.3.0):
-    - MoeCommon
-  - MoeUI/Unity (1.3.0):
-    - MoeCommon
+  - MoeUI (0.0.2):
+    - MoeCommon (~> 0.0.1)
+    - MoeUI/Extension (= 0.0.2)
+    - MoeUI/PanDrawer (= 0.0.2)
+    - MoeUI/Unity (= 0.0.2)
+  - MoeUI/Extension (0.0.2):
+    - MoeCommon (~> 0.0.1)
+  - MoeUI/PanDrawer (0.0.2):
+    - MoeCommon (~> 0.0.1)
+  - MoeUI/Unity (0.0.2):
+    - MoeCommon (~> 0.0.1)
+    - MoeUI/Extension
   - SnapKit (4.2.0)
 
 DEPENDENCIES:
   - MoeAlert (from `../`)
-  - MoeCommon (from `https://github.com/linyanzuo/MoeCommon.git`)
-  - MoeUI (from `https://github.com/linyanzuo/MoeUI.git`)
+  - MoeCommon (~> 0.0.1)
+  - MoeUI (~> 0.0.2)
   - SnapKit (~> 4.2.0)
 
 SPEC REPOS:
+  https://github.com/linyanzuo/MoeRepo.git:
+    - MoeCommon
+    - MoeUI
   trunk:
     - SnapKit
 
 EXTERNAL SOURCES:
   MoeAlert:
     :path: "../"
-  MoeCommon:
-    :git: https://github.com/linyanzuo/MoeCommon.git
-  MoeUI:
-    :git: https://github.com/linyanzuo/MoeUI.git
-
-CHECKOUT OPTIONS:
-  MoeCommon:
-    :commit: 0046bf01714f5e59b6d123f0dce925405fa6bd27
-    :git: https://github.com/linyanzuo/MoeCommon.git
-  MoeUI:
-    :commit: 5cfc61f2465454f3a6aa2acfe175af31633f7b09
-    :git: https://github.com/linyanzuo/MoeUI.git
 
 SPEC CHECKSUMS:
-  MoeAlert: f30615e16a3952fefccaf5df0310c28b82dcffb5
-  MoeCommon: 58429fce47df711e46147d7d34c07648459012ef
-  MoeUI: f2bcee7a24b63d6c48f4fbb78982d845f2929b15
+  MoeAlert: 5245996743a0f7715945a11cec34da4844675915
+  MoeCommon: 51974af724f67140e1bde59c322ad7ac0cb4e7b8
+  MoeUI: ca3e259e1017278b1bf1926f9cecf33c65908516
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: e5f782dea912ec8275b778290d841b855b35b26d
+PODFILE CHECKSUM: ee4f1960e02f485a27cffbcff7fce0791deae801
 
 COCOAPODS: 1.11.2

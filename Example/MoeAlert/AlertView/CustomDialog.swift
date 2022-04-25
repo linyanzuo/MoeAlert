@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import MoeUI
 import MoeCommon
 
 
@@ -23,7 +22,7 @@ class CustomDialog: UIView {
     }
 
     deinit {
-        MLog("Byebye! form CustomDialog")
+        debugPrint("Byebye! form CustomDialog")
     }
 
     private func setupSelf() {
@@ -63,10 +62,14 @@ class CustomDialog: UIView {
         return imgView
     }()
 
-    private(set) lazy var label: MoeLabel = {
-        let des = Designator()
-        des.text("Loading").font(15, weight: .medium)
-            .color(0x666666).lines(0).alignment(.center)
-        return des.makeLabel(toView: self)
+    private(set) lazy var label: UILabel = {
+        let view = UILabel()
+        view.text = "Loading"
+        view.font = UIFont.systemFont(ofSize: 15, weight: .medium)
+        view.textColor = UIColor(rgb: 0x666666)
+        view.numberOfLines = 0
+        view.textAlignment = .center
+        self.addSubview(view)
+        return view
     }()
 }

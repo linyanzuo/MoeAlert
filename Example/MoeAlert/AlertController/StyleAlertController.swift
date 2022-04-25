@@ -5,7 +5,6 @@
 //  Created by Zed on 2019/9/2.
 //
 
-import MoeUI
 import MoeCommon
 import MoeAlert
 import UIKit

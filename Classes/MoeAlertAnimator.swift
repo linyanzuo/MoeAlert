@@ -4,10 +4,6 @@
 //
 //  Created by Zed on 2019/8/17.
 //
-/**
- 弹窗转场动画的相关实现
- */
-
 import UIKit
 
 
@@ -20,7 +16,7 @@ public protocol MoeAlertAnimatorProtocol where Self: UIViewController {
 }
 
 
-/// 转场动画执行器
+/// 转场动画执行器（弹窗转场动画的相关实现）
 public class MoeAlertAnimator: NSObject {
     /// 转场动作类型
     public enum TransitionType {

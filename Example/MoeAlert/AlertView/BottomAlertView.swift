@@ -7,10 +7,10 @@
 //
 
 import UIKit
-import MoeUI
+import MoeAlert
 
 
-class BottomAlertView: AlertView {
+class BottomAlertView: MoeAlertView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.animationType = .transformFromBottom(outOffScreen: true)

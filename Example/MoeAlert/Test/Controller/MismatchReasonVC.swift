@@ -29,7 +29,7 @@ class MismatchReasonVC: MoeAlertController {
 
     public override func addConstraintsFor(_ alert: UIView, in superView: UIView) {
         alert.translatesAutoresizingMaskIntoConstraints = false
-        let topOffset = MScreen.navigationHeight + (84 - 44)
+        let topOffset = UIScreen.moe.navigationHeight + (84 - 44)
         alert.snp.makeConstraints { (maker) in
             maker.left.right.bottom.equalTo(superView)
             maker.top.equalToSuperview().offset(topOffset)
@@ -94,7 +94,7 @@ class MismatchReasonVC: MoeAlertController {
     }
     
     private func setFooterView(){
-        footerView.frame = CGRect.init(x: 0, y: 0, width: MScreen.width, height:  130)
+        footerView.frame = CGRect.init(x: 0, y: 0, width: UIScreen.main.bounds.width, height:  130)
         footerView.addSubview(lee_inputView)
         tableView.tableFooterView = footerView
     }

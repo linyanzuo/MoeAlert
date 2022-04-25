@@ -11,11 +11,11 @@ import MoeUI
 
 
 open class TitleCell: TableViewCell {
-    
+
     open override func setupSubview() {
         selectionStyle = .none
     }
-    
+
     open override func setupConstraint() {
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         self.addConstraints([
@@ -34,9 +34,12 @@ open class TitleCell: TableViewCell {
 
     // MARK: Getter & Setter
     private(set) lazy var titleLabel: UILabel = {
-        let des = Designator()
-        des.text(nil).color(UIColor(rgb: 0x4C86B1)).font(15)
-        return des.makeLabel(toView: self)
+        let label = UILabel()
+        label.textColor = UIColor(rgb: 0x4C86B1)
+        label.textAlignment = .center
+        label.font = UIFont.systemFont(ofSize: 15)
+        self.addSubview(label)
+        return label
     }()
 
     private(set) lazy var separator: CALayer = {

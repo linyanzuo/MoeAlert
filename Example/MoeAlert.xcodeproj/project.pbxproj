@@ -20,6 +20,12 @@
 		9534605C2608C1D0007A8EC0 /* MismatchReasonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953460552608C1D0007A8EC0 /* MismatchReasonVC.swift */; };
 		9534605D2608C1D0007A8EC0 /* MismatchReasonM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953460572608C1D0007A8EC0 /* MismatchReasonM.swift */; };
 		9534605E2608C1D0007A8EC0 /* const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953460582608C1D0007A8EC0 /* const.swift */; };
+		95560E8928129162007F81F7 /* MoeDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95560E8728129162007F81F7 /* MoeDatePicker.swift */; };
+		95560E8A28129162007F81F7 /* MoeDateAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95560E8828129162007F81F7 /* MoeDateAlertController.swift */; };
+		95560E8C28129254007F81F7 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95560E8B28129254007F81F7 /* DateHelper.swift */; };
+		95560E8F281298C4007F81F7 /* AlertDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95560E8E281298C4007F81F7 /* AlertDialog.swift */; };
+		95560E9128129B7C007F81F7 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95560E9028129B7C007F81F7 /* HUD.swift */; };
+		95560EDD28164226007F81F7 /* Array+Moe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95560EDC28164226007F81F7 /* Array+Moe.swift */; };
 		95F5E360259DB82500AAB9FD /* AlertUsageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F5E35F259DB82500AAB9FD /* AlertUsageVC.swift */; };
 		95F5E39E259DB93300AAB9FD /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F5E39B259DB93300AAB9FD /* SettingCell.swift */; };
 		95F5E39F259DB93300AAB9FD /* UnitedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F5E39C259DB93300AAB9FD /* UnitedTableViewController.swift */; };
@@ -64,6 +70,12 @@
 		953460552608C1D0007A8EC0 /* MismatchReasonVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MismatchReasonVC.swift; sourceTree = "<group>"; };
 		953460572608C1D0007A8EC0 /* MismatchReasonM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MismatchReasonM.swift; sourceTree = "<group>"; };
 		953460582608C1D0007A8EC0 /* const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = const.swift; sourceTree = "<group>"; };
+		95560E8728129162007F81F7 /* MoeDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoeDatePicker.swift; sourceTree = "<group>"; };
+		95560E8828129162007F81F7 /* MoeDateAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoeDateAlertController.swift; sourceTree = "<group>"; };
+		95560E8B28129254007F81F7 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		95560E8E281298C4007F81F7 /* AlertDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertDialog.swift; sourceTree = "<group>"; };
+		95560E9028129B7C007F81F7 /* HUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
+		95560EDC28164226007F81F7 /* Array+Moe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Moe.swift"; sourceTree = "<group>"; };
 		95F5E35F259DB82500AAB9FD /* AlertUsageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertUsageVC.swift; sourceTree = "<group>"; };
 		95F5E39B259DB93300AAB9FD /* SettingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
 		95F5E39C259DB93300AAB9FD /* UnitedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitedTableViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +133,8 @@
 		607FACD21AFB9204008FA782 /* Example for MoeAlert */ = {
 			isa = PBXGroup;
 			children = (
+				95560E8D281298B6007F81F7 /* AlertDialog */,
+				95560E8628128E0E007F81F7 /* AlertDatePicker */,
 				953460042608B7E6007A8EC0 /* Test */,
 				95023AB0260486260023068F /* AlertView */,
 				95F5E3AF259DB9C400AAB9FD /* AlertController */,
@@ -129,6 +143,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				95560EDC28164226007F81F7 /* Array+Moe.swift */,
 			);
 			name = "Example for MoeAlert";
 			path = MoeAlert;
@@ -214,6 +229,25 @@
 				953460582608C1D0007A8EC0 /* const.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		95560E8628128E0E007F81F7 /* AlertDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				95560E8828129162007F81F7 /* MoeDateAlertController.swift */,
+				95560E8728129162007F81F7 /* MoeDatePicker.swift */,
+				95560E8B28129254007F81F7 /* DateHelper.swift */,
+			);
+			path = AlertDatePicker;
+			sourceTree = "<group>";
+		};
+		95560E8D281298B6007F81F7 /* AlertDialog */ = {
+			isa = PBXGroup;
+			children = (
+				95560E9028129B7C007F81F7 /* HUD.swift */,
+				95560E8E281298C4007F81F7 /* AlertDialog.swift */,
+			);
+			path = AlertDialog;
 			sourceTree = "<group>";
 		};
 		95F5E38B259DB87100AAB9FD /* TableView */ = {
@@ -438,13 +472,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95560E8A28129162007F81F7 /* MoeDateAlertController.swift in Sources */,
+				95560EDD28164226007F81F7 /* Array+Moe.swift in Sources */,
 				95F5E3A4259DB9A300AAB9FD /* TitleCell.swift in Sources */,
 				9534605C2608C1D0007A8EC0 /* MismatchReasonVC.swift in Sources */,
 				95F5E3A0259DB93300AAB9FD /* DemoTableVC.swift in Sources */,
 				95F5E3AB259DB9BF00AAB9FD /* StyleAlertController.swift in Sources */,
 				95F5E3AA259DB9BF00AAB9FD /* CustomDialog.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				95560E8928129162007F81F7 /* MoeDatePicker.swift in Sources */,
+				95560E8F281298C4007F81F7 /* AlertDialog.swift in Sources */,
 				95F5E360259DB82500AAB9FD /* AlertUsageVC.swift in Sources */,
+				95560E8C28129254007F81F7 /* DateHelper.swift in Sources */,
 				95023AA5260458090023068F /* FeedbackController.swift in Sources */,
 				95F5E39F259DB93300AAB9FD /* UnitedTableViewController.swift in Sources */,
 				95F5E39E259DB93300AAB9FD /* SettingCell.swift in Sources */,
@@ -452,6 +491,7 @@
 				95F5E3AC259DB9BF00AAB9FD /* BottomAlertView.swift in Sources */,
 				9534605A2608C1D0007A8EC0 /* MismatchReasonCell.swift in Sources */,
 				9534605E2608C1D0007A8EC0 /* const.swift in Sources */,
+				95560E9128129B7C007F81F7 /* HUD.swift in Sources */,
 				953460592608C1D0007A8EC0 /* UITextView+Extension.swift in Sources */,
 				9534605D2608C1D0007A8EC0 /* MismatchReasonM.swift in Sources */,
 			);
@@ -536,7 +576,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -586,7 +626,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

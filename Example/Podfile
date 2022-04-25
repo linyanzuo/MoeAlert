@@ -1,16 +1,17 @@
 use_frameworks!
+platform :ios, '11.0'
 
-platform :ios, '9.0'
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/linyanzuo/MoeRepo.git'
 
 target 'MoeAlert_Example' do
-  pod 'MoeCommon', :git=>'https://github.com/linyanzuo/MoeCommon.git'
-  pod 'MoeUI', :git=>'https://github.com/linyanzuo/MoeUI.git'
+  pod 'MoeCommon', '~> 0.0.1'
+  pod 'MoeUI', '~> 0.0.2'
   pod 'SnapKit', '~> 4.2.0'
   pod 'MoeAlert', :path => '../'
 
   target 'MoeAlert_Tests' do
     inherit! :search_paths
-
     
   end
 end
